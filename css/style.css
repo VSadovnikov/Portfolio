@@ -1,21 +1,184 @@
 body{
-	background: #ececec;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cormorant', serif;
 	font-size: 14px;
 	color: #000;
 	min-width: 320px;
+	background-color: white;
 }
+	
+nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a {
+		font-family: 'Cormorant', serif;
+		font-size: 16px;
+		color: rgb(33, 33, 33);
+	  }
+
+	  nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a:hover{
+		border-bottom: 2px solid black;
+	  }
+	  
+
+nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+nav.navbar.navbar-default {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-right: 150px;
+	padding-left: 95px;
+}
+
+nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand {
+	font-weight: 900;
+	font-size: 48px;
+}
+
 img{
 	max-width: 100%;
 	height: auto;
 }
 
+.main-container {
+	margin-top: 20px;
+	background: url("../img/left_border.png") no-repeat;
+}
 
+
+.fio {
+		font-size: 46px;
+		font-family: "Cormorant", sans-serif;
+		color: rgb(33, 33, 33);
+		margin-top: 150px;
+		margin-left: 50px;
+		text-transform: uppercase;
+  
+}
+
+.job-title {
+	font-size: 22px;
+	font-family: "Myriad Pro";
+	margin-left: 50px;
+	color: rgba(33, 33, 33, 0.902);
+  }
+
+  .left-side-btn {
+	  margin-left: 50px;
+  }
+
+  .btn {
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 0;
+  }
+
+  .btn-left {
+margin-right: 5px;
+  }
+
+  .btn:hover {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+  } 
+
+  .about_title {
+	font-family: "Cormorant" sans-serif;
+	color: rgb(33, 33, 33);
+	text-align: center;
+	font-size: 36px;
+	text-decoration: underline;
+	display: block;
+  }
+
+  .about_text {
+	font-size: 16px;
+	font-family: "Cormorant" sans-serif;
+	color: rgb(33, 33, 33);
+	text-align: center;
+	display: block;
+	
+  }
+
+  .dwn_cv_btn {
+	  text-align: center;
+	  background-color: white;
+	  color: black;
+  }
+
+  .dwn_cv_section { 
+	  margin-top: 15px;
+  }
+
+
+  
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
-	
+	nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a {
+		text-align: center;
+	}
+
+
+	nav.navbar.navbar-default {
+		background-color: #fff;
+		padding-right: 0px;
+		padding-left: 0px;
+		
+	}
+
+	.fio {
+		font-size: 24px;
+		font-family: "Cormorant", sans-serif;
+		color: rgb(33, 33, 33);
+		margin-top: 10px;
+		margin-left: 5px;
+		text-transform: uppercase;
+	}
+  
+
+
+.job-title {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	margin-bottom: 10px;
+	margin-left: 50px;
+	color: rgba(33, 33, 33, 0.902);
+  }
+
+  .main-container {
+	  background-image: none;
+  }
+
+
+  .btn {
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 0;
+  }
+
+  .btn-left {
+	margin-bottom: 5px;
+	margin-left: 40px;
+  }
+
+  .btn-right {
+	margin-bottom: 5px;
+	margin-left: 15px;
+  }
+
+  .btn:hover {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+  } 
+
+
 }
+
+
 
 @media only screen and (max-width : 1200px) {
 	
