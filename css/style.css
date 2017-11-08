@@ -108,6 +108,7 @@ margin-right: 5px;
 	  text-align: center;
 	  background-color: white;
 	  color: black;
+	  padding: 10px 30px;
   }
 
   .dwn_cv_section { 
@@ -176,6 +177,18 @@ margin-right: 5px;
 	margin-top: 100px; 
 }
 
+.portfolio_img {
+	margin: 10px 5px;
+	align-items: center;
+}
+
+.portfolio-block {
+	padding-left: 130px;
+	width: 100%;
+}
+.prt_img4_hover {
+
+}
 
   
 /* Large Devices, Wide Screens */
@@ -262,6 +275,11 @@ margin-right: 5px;
 		width: 80%;
 		margin-top: -50px;
 		background-color: white;
+	}
+
+	portfolio-block {
+		width: 100%;
+		margin: 0;
 	}
 
 }
