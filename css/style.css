@@ -190,6 +190,54 @@ margin-right: 5px;
 
 }
 
+.fun-facts {
+	background: url("../img/fan-facts-img.png");
+	margin-top: 30px;
+}
+
+.fun-facts-thumbnail {
+	background-color: none;
+	margin: 30px 30px;
+}
+
+.fun-facts-thumbnail-text {
+ color: white;
+ 	text-align: center;
+	font-size: 18px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	line-height: 1.333;
+	text-align: center;
+	z-index: 59;
+	padding-top: 25px;
+	padding-bottom: 35px;
+  }
+
+.fun-facts-thumbnail-title {
+ text-align: center;
+	font-size: 80px;
+	font-family: "Cormorant";
+	color: rgb(255, 255, 255);
+	line-height: 0.32;
+	z-index: 60;
+	padding-bottom: 25px;
+  }
+
+  .contact-block {
+	  margin-top: 50px;
+  }
+
+  .textarea {
+	  border: none;
+  }
+
+  .form-control {
+	border: none;
+	border-bottom: 1px solid black;
+	border-radius: 0;
+	box-shadow: none;
+  }
+
   
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -277,10 +325,41 @@ margin-right: 5px;
 		background-color: white;
 	}
 
-	portfolio-block {
-		width: 100%;
-		margin: 0;
+	.portfolio-block {
+		padding: 0px;
 	}
+
+	.dwn_cv_btn {
+		padding: 10px;
+	}
+
+	.fun-facts-thumbnail {
+		background-color: none;
+		margin: 10px 10px;
+	}
+	
+	.fun-facts-thumbnail-text {
+	 color: white;
+		 text-align: center;
+		font-size: 14px;
+		font-family: "Myriad Pro";
+		color: rgb(255, 255, 255);
+		line-height: 1.333;
+		text-align: center;
+		z-index: 59;
+		padding-top: 25px;
+	  }
+	
+	.fun-facts-thumbnail-title {
+	 text-align: center;
+		font-size: 50px;
+		font-family: "Cormorant";
+		color: rgb(255, 255, 255);
+		line-height: 0.32;
+		z-index: 60;
+		padding-bottom: 15px;
+	  }
+	
 
 }
 
